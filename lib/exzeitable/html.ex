@@ -91,9 +91,7 @@ defmodule Exzeitable.HTML do
             text_input(f, :search,
               placeholder: "Search",
               class: "exz-search-field",
-              phx_debounce: debounce,
-              value: assigns.search
-            ),
+              phx_debounce: debounce            ),
             counter(assigns)
           ]
           |> cont(:div, class: "exz-search-field-wrapper")
