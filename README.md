@@ -1,6 +1,6 @@
 # Exzeitable
 
-[![Build Status](https://github.com/alanvardy/exzeitable/workflows/Elixir%20ex_check/badge.svg)](https://github.com/alanvardy/exzeitable) [![hex.pm](http://img.shields.io/hexpm/v/exzeitable.svg?style=flat)](https://hex.pm/packages/exzeitable)
+[![Build Status](https://github.com/alanvardy/exzeitable/workflows/Unit%20Tests/badge.svg)](https://github.com/alanvardy/exzeitable) [![Build Status](https://github.com/alanvardy/exzeitable/workflows/Dialyzer/badge.svg)](https://github.com/alanvardy/exzeitable) [![Build Status](https://github.com/alanvardy/exzeitable/workflows/Cypress/badge.svg)](https://github.com/alanvardy/exzeitable) [![hex.pm](http://img.shields.io/hexpm/v/exzeitable.svg?style=flat)](https://hex.pm/packages/exzeitable)
 
 Dynamic searchable, sortable datatable that takes a database query and a module, and makes the magic happen. Uses Phoenix Liveview and Postgres. Bootstrap friendly and easily configured for other CSS frameworks.
 
@@ -194,7 +194,7 @@ Call the table from your template
 
 Almost no CSS styling is included out of the box. I have added generic classes elements in the table in the hopes of making the table as CSS framwork agnostic as possible.
 
-I have included a Bootstrap SASS example in the [HTML Module](Exzeitable.HTML.html)
+I have included a Bootstrap SASS example in the [CSS Module](https://github.com/alanvardy/exzeitable/blob/develop/CSS.md)
 
 ## Contributing
 
